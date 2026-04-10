@@ -1,0 +1,73 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.zleub'
+version = '1.0-SNAPSHOT'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(25)
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+repositories {
+    mavenLocal()
+
+    maven {
+        name = 'hytale-release'
+        url = uri('https://maven.hytale.com/release')
+    }
+    maven {
+        name = 'hytale-pre-release'
+        url = uri('https://maven.hytale.com/pre-release')
+    }
+    ivy {
+        url = uri('https://api.modtale.net/api/v1')
+        patternLayout {
+            artifact 'projects/[module]/versions/[revision]/download'
+        }
+        metadataSources {artifact()}
+    }
+}
+
+dependencies {
+    implementation 'com.hypixel.hytale:Server:2026.03.26-89796e57b'
+    implementation 'modtale:renode:0.5.0@jar'
+    testImplementation 'junit:junit:3.8.1'
+}
+
+tasks.register('prodMode') {
+    dependsOn build
+}
+tasks.register('devMode') {
+    dependsOn build
+}
+
+processResources {
+    if (gradle.startParameter.taskNames.contains('prodMode')) {
+        from('assetpack') {
+            exclude 'manifest.json'
+        }
+    }
+}
+
+tasks.register('copyPluginJar', Copy) {
+    dependsOn tasks.jar
+    from(tasks.jar.archiveFile)
+    into('C:/Users/debra/AppData/Roaming/Hytale/UserData/Mods')
+}
+
+tasks.register('copyDevAssetpack', Copy) {
+    from "assetpack"
+    into('C:/Users/debra/AppData/Roaming/Hytale/UserData/Mods/zcities_devmode')
+}
+
+tasks.devMode {
+    finalizedBy tasks.copyPluginJar
+    finalizedBy tasks.copyDevAssetpack
+}

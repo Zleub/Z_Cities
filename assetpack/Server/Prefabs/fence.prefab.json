@@ -1,0 +1,84 @@
+{
+  "version": 8,
+  "blockIdVersion": 11,
+  "anchorX": 0,
+  "anchorY": 0,
+  "anchorZ": -4,
+  "blocks": [
+    {
+      "x": -4,
+      "y": 0,
+      "z": -4,
+      "name": "Empty"
+    },
+    {
+      "x": -4,
+      "y": 0,
+      "z": -3,
+      "name": "Wood_Greenwood_Fence",
+      "rotation": 2
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": -3,
+      "name": "Wood_Greenwood_Fence",
+      "rotation": 2
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": -3,
+      "name": "Wood_Greenwood_Fence",
+      "rotation": 2
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": -3,
+      "name": "Wood_Greenwood_Fence",
+      "rotation": 2
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": -3,
+      "name": "Wood_Greenwood_Fence",
+      "rotation": 2
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": -3,
+      "name": "Wood_Greenwood_Fence",
+      "rotation": 2
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": -3,
+      "name": "Wood_Greenwood_Fence",
+      "rotation": 2
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": -3,
+      "name": "Wood_Greenwood_Fence",
+      "rotation": 2
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "z": -3,
+      "name": "Wood_Greenwood_Fence",
+      "rotation": 2
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "z": -2,
+      "name": "Empty"
+    }
+  ]
+}

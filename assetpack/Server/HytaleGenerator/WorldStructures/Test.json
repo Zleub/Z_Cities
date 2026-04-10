@@ -1,0 +1,51 @@
+{
+  "Type": "NoiseRange",
+  "Biomes": [
+    {
+      "Biome": "Test",
+      "Min": -1,
+      "Max": -0.5
+    },
+    {
+      "Biome": "Plains1_River",
+      "Min": -0.5,
+      "Max": 0
+    },
+    {
+      "Min": 0,
+      "Max": 0.15,
+      "Biome": "Plains1_Shore"
+    },
+    {
+      "Biome": "Oceans",
+      "Min": 0.15,
+      "Max": 2
+    }
+  ],
+  "DefaultTransitionDistance": 32,
+  "MaxBiomeEdgeDistance": 32,
+  "Density": {
+    "Type": "Imported",
+    "Name": "Biome-Map"
+  },
+  "Framework": [
+    {
+      "Type": "DecimalConstants",
+      "Entries": [
+        {
+          "Name": "Base",
+          "Value": 32
+        },
+        {
+          "Name": "Water",
+          "Value": 10
+        },
+        {
+          "Name": "Bedrock",
+          "Value": 0
+        }
+      ]
+    }
+  ],
+  "DefaultBiome": "Default_Flat"
+}
