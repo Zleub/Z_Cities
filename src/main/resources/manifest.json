@@ -1,17 +1,16 @@
 {
   "Group": "com.zleub",
-  "Name": "ExamplePlugin",
+  "Name": "Cities",
   "Version": "1.0.0",
-  "Description": "Description of your plugin",
+  "Description": "A plugin for a city biome",
   "Authors": [
     {
-      "Name": "Your Name",
-      "Email": "your.email@example.com",
-      "Url": "https://your-website.com"
+      "Name": "Zleub",
+      "Email": "debray.arnaud@gmail.com"
     }
   ],
-  "Website": "https://your-plugin-website.com",
-  "ServerVersion": "*",
+  "Website": "https://github.com/Zleub/Z_Cities",
+  "ServerVersion": "${hytaleVersion}",
   "Dependencies": {},
   "OptionalDependencies": {},
   "DisabledByDefault": false,

@@ -2,12 +2,24 @@ plugins {
     id 'java'
 }
 
+sourceSets {
+    assetGen {
+        compileClasspath += sourceSets.main.output.classesDirs + configurations.compileClasspath
+        runtimeClasspath += output + compileClasspath + sourceSets.main.output.classesDirs + configurations.runtimeClasspath
+    }
+}
+
+configurations {
+    assetGenImplementation.extendsFrom implementation
+    assetGenRuntimeOnly.extendsFrom runtimeOnly
+}
+
 group = 'com.zleub'
 version = '1.0-SNAPSHOT'
 
 java {
     toolchain {
-        languageVersion = JavaLanguageVersion.of(25)
+        languageVersion = JavaLanguageVersion.of(21)
     }
 }
 
@@ -36,16 +48,24 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.hypixel.hytale:Server:2026.03.26-89796e57b'
-    implementation 'modtale:renode:0.5.0@jar'
+    implementation 'com.hypixel.hytale:Server:' + providers.gradleProperty("hytaleVersion").get()
     testImplementation 'junit:junit:3.8.1'
 }
 
 tasks.register('prodMode') {
-    dependsOn build
+    dependsOn generateAssets
+    finalizedBy build
 }
 tasks.register('devMode') {
     dependsOn build
+    finalizedBy copyPluginJar
+}
+
+tasks.register('generateAssets', JavaExec) {
+    group "Execution"
+    classpath sourceSets.assetGen.runtimeClasspath
+    main "com.zleub.OfflineAssetGenerator"
+    args "assetpack"
 }
 
 processResources {
@@ -54,20 +74,28 @@ processResources {
             exclude 'manifest.json'
         }
     }
+
+    filesMatching('manifest.json') {
+        expand(hytaleVersion: providers.gradleProperty("hytaleVersion").get())
+    }
 }
 
-tasks.register('copyPluginJar', Copy) {
-    dependsOn tasks.jar
-    from(tasks.jar.archiveFile)
-    into('C:/Users/debra/AppData/Roaming/Hytale/UserData/Mods')
+tasks.register('installDevMode', Sync) {
+    dependsOn copyDevAssetpack
+    from 'assetpack'
+    into providers.gradleProperty("hytaleInstallPath").get() + '/UserData/Mods/zcities_devmode'
+    filesMatching('manifest.json') {
+        expand(hytaleVersion: providers.gradleProperty("hytaleVersion").get())
+    }
 }
 
 tasks.register('copyDevAssetpack', Copy) {
-    from "assetpack"
-    into('C:/Users/debra/AppData/Roaming/Hytale/UserData/Mods/zcities_devmode')
+    from providers.gradleProperty("hytaleInstallPath").get() + '/UserData/Mods/zcities_devmode'
+    into 'assetpack'
 }
 
-tasks.devMode {
-    finalizedBy tasks.copyPluginJar
-    finalizedBy tasks.copyDevAssetpack
+tasks.register('copyPluginJar', Copy) {
+    dependsOn copyDevAssetpack, generateAssets, installDevMode
+    from(tasks.jar.archiveFile)
+    into(providers.gradleProperty("hytaleInstallPath").get() + '/UserData/Mods')
 }

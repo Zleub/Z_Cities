@@ -38,4 +38,9 @@ build/
 ### Mac OS ###
 .DS_Store
 
+### Gradle ###
 .gradle
+
+### Hytale ###
+*.prefab.json.bak
+/assetpack/Server/Prefabs/generated/
