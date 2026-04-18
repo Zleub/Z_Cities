@@ -4040,6 +4040,20 @@
     {
       "x": 8,
       "y": 1,
+      "z": 0,
+      "name": "NoCube_Neon_Block_Cyan",
+      "rotation": 1
+    },
+    {
+      "x": 8,
+      "y": 3,
+      "z": 0,
+      "name": "NoCube_Neon_Block_Cyan",
+      "rotation": 1
+    },
+    {
+      "x": 8,
+      "y": 1,
       "z": 1,
       "name": "Soil_Clay"
     },
