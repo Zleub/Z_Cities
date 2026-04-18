@@ -21,7 +21,7 @@
   "IsSavingPlayers": true,
   "WorldGen": {
     "Type": "HytaleGenerator",
-    "WorldStructure": "Test"
+    "WorldStructure": "Cities"
   },
   "IsSpawnMarkersEnabled": true,
   "DeleteOnRemove": false,

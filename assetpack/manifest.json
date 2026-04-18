@@ -1,11 +1,11 @@
 {
   "Group": "zleub",
-  "Name": "test",
+  "Name": "cities_debug",
   "Version": "1.0.0",
   "Description": "",
   "Authors": [],
   "Website": "",
-  "ServerVersion": "2026.02.19-1a311a592",
+  "ServerVersion": "2026.03.26-89796e57b",
   "Dependencies": {},
   "OptionalDependencies": {},
   "LoadBefore": {},

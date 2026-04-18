@@ -1,8 +1,8 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Rock_Crystal_Blue.name"
+    "Name": "server.items.sign_test.name"
   },
-  "Icon": "Icons/ItemsGenerated/Rock_Crystal_Blue.png",
+  "Icon": "Icons/Items/sign_test.png",
   "Categories": [
     "Blocks.Rocks",
     "Blocks.Rocks"
@@ -18,7 +18,7 @@
     "Flags": {},
     "Gathering": {
       "Breaking": {
-        "DropList": "Rock_Crystal_Water",
+        "DropList": "AdSign",
         "GatherType": "Rocks"
       }
     },
@@ -33,7 +33,7 @@
     "ParticleColor": "#245bc1",
     "BlockSoundSetId": "Crystal",
     "CubeShadingMode": "Reflective",
-    "VariantRotation": "Pipe"
+    "VariantRotation": "Wall"
   },
   "Tags": {
     "Type": [

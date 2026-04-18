@@ -6,7 +6,7 @@
       "Biome": "Plains1_Oak"
     },
     {
-      "Biome": "Test",
+      "Biome": "Cities",
       "Min": -0.75,
       "Max": -0.5
     },
@@ -38,11 +38,11 @@
       "Entries": [
         {
           "Name": "Base",
-          "Value": 10
+          "Value": 100
         },
         {
           "Name": "Water",
-          "Value": 10
+          "Value": 100
         },
         {
           "Name": "Bedrock",
