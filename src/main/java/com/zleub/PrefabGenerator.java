@@ -1,9 +1,11 @@
 package com.zleub;
 
 import com.hypixel.hytale.assetstore.AssetPack;
+import com.hypixel.hytale.builtin.hytalegenerator.assets.props.PropAsset;
 import com.hypixel.hytale.server.core.HytaleServer;
 import com.hypixel.hytale.server.core.asset.AssetModule;
 import com.hypixel.hytale.server.core.asset.type.blocktype.config.BlockType;
+import com.hypixel.hytale.server.core.plugin.registry.CodecMapRegistry;
 import com.hypixel.hytale.server.core.prefab.PrefabStore;
 import com.hypixel.hytale.server.core.prefab.selection.standard.BlockSelection;
 import com.zleub.events.ExampleEvent;
@@ -70,10 +72,10 @@ public class PrefabGenerator {
                 "Rock_Crystal_Yellow_Block",
         });
 
-        REPLACE_MAP.put("Wood_Hardwood_Planks_Half", new String[]{
-                "Wood_Hardwood_Planks_Half",
-                "Wood_Oak_Trunk_Half"
-        });
+//        REPLACE_MAP.put("Wood_Hardwood_Planks_Half", new String[]{
+//                "Wood_Hardwood_Planks_Half",
+//                "Wood_Oak_Trunk_Half"
+//        });
     }
 
     public static String SELF = "com.zleub:ExamplePlugin";
@@ -87,10 +89,6 @@ public class PrefabGenerator {
     public static Map<AssetPack, List<Path>> assetMap;
     public static int skipped = 0;
     public static int saved = 0;
-
-    static {
-        LOGGER.info(cartesianList.toString());
-    }
 
     public static <T> Stream<List<T>> cartesianProduct(List<List<T>> sets, int index) {
         if (index == sets.size()) {
@@ -158,7 +156,7 @@ public class PrefabGenerator {
 
         // TODO: find a good and lightweigth way to id prefabs
         return destination.getPackLocation().resolve(
-                strippedPath + "_" + generatedID + ".prefab.json");
+                strippedPath + "_" + generatedID.get() + ".prefab.json");
     }
 
     public static void generateFromAssetMap(Map<AssetPack, List<Path>> assetMap) {
@@ -168,11 +166,13 @@ public class PrefabGenerator {
             AssetPack destination = AssetModule.get().getAssetPack(pack.getManifest().getGroup() + ":" + pack.getManifest().getName() + "_generated");
             LOGGER.info(destination.toString());
 
-            paths.subList(0, 1).forEach(path -> {
+            paths.forEach(path -> {
                 BlockSelection prefab = prefabStore.getPrefab(path);
                 cartesianList.forEach(e -> {
                     Path outPath = makeGeneratedPath(path, destination, () -> String.valueOf(cartesianList.indexOf(e)));
-                    if (Files.exists(path)) {
+//                    LOGGER.info("Save generated: " + outPath);
+
+                    if (Files.exists(outPath)) {
                         skipped += 1;
                         return ;
                     }
@@ -192,11 +192,13 @@ public class PrefabGenerator {
                         }
                     });
 
-                    HytaleServer.SCHEDULED_EXECUTOR.execute(() -> {
+//                    HytaleServer.SCHEDULED_EXECUTOR.execute(() -> {
+
                         prefabStore.savePrefab(outPath, newPrefab, true);
+
                         saved += 1;
 
-                    });
+//                    });
                 });
             });
         });
