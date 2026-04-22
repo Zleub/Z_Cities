@@ -81,7 +81,9 @@ processResources {
 }
 
 tasks.register('installDevMode', Sync) {
-    dependsOn copyDevAssetpack
+    if (gradle.startParameter.taskNames.contains('devMode')) {
+        dependsOn copyDevAssetpack
+    }
     from 'assetpack'
     into providers.gradleProperty("hytaleInstallPath").get() + '/UserData/Mods/zcities_devmode'
     filesMatching('manifest.json') {
@@ -90,7 +92,9 @@ tasks.register('installDevMode', Sync) {
 }
 
 tasks.register('copyDevAssetpack', Copy) {
-    from providers.gradleProperty("hytaleInstallPath").get() + '/UserData/Mods/zcities_devmode'
+    from(providers.gradleProperty("hytaleInstallPath").get() + '/UserData/Mods/zcities_devmode') {
+        exclude '**/*.lpf', '**/*.bak'
+    }
     into 'assetpack'
 }
 
