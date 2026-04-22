@@ -15,7 +15,7 @@ configurations {
 }
 
 group = 'com.zleub'
-version = '1.0'
+version = 'modjam'
 
 java {
     toolchain {
