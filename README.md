@@ -33,6 +33,7 @@ This is leverage Hytale's assets reloading when they are changed so every editor
 The hytale dev team<br>
 hytalemodding.dev team<br>
 hytale-docs.com team<br>
+chatgpt dev team (code analysis, ci/cd workflow, image generation)<br>
 ItsVerday for its Renode plugin (even if i dont have time to properly dig it, that was very instructive)<br>
 NoCube for its base file for light emissive blocks<br>
 Darkknight4303 for brainstorming and feedback
