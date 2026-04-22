@@ -20,6 +20,7 @@ import java.nio.file.SimpleFileVisitor;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.util.*;
 import java.util.function.Supplier;
+import java.util.regex.Pattern;
 import java.util.stream.Stream;
 
 public class OfflineAssetGenerator {
@@ -195,14 +196,14 @@ public class OfflineAssetGenerator {
                                     .get("name")
                                     .getAsString();
 
+
                             Optional<Pair> pair = u.stream()
-                                    .filter(p -> p.a()
-                                            .equals(name))
+                                    .filter(p -> Pattern.matches(p.a() + ".*", name))
                                     .findFirst();
 
                             pair.ifPresent(value -> {
-                                b.getAsJsonObject().addProperty("name", value.b);
-        //                                System.out.printf("%s -> %s\n", name, value.b);
+                                b.getAsJsonObject().addProperty("name", name.replace(value.a(), value.b()));
+//                                System.out.printf("%s -> %s\n", name, value.b);
                             });
                         });
 
@@ -213,6 +214,7 @@ public class OfflineAssetGenerator {
                             fileWriter.flush();
                             saved += 1;
                         } catch (IOException e) {
+                            System.out.printf("%S\n", path);
                             throw new RuntimeException(e);
                         }
 
@@ -220,6 +222,7 @@ public class OfflineAssetGenerator {
 
 
                 } catch (Exception ex) {
+                    System.out.printf("%S\n", path);
                     throw new RuntimeException(ex);
                 }
             });
