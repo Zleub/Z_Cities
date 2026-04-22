@@ -43,5 +43,6 @@ build/
 .gradle
 
 ### Hytale ###
+*.prefab.json.lpf
 *.prefab.json.bak
 /assetpack/Server/Prefabs/generated/
