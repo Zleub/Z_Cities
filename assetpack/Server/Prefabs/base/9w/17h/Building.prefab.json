@@ -8273,7 +8273,7 @@
     },
     {
       "x": 10,
-      "y": 12,
+      "y": 6,
       "z": 2,
       "name": "AdSign_Fat",
       "rotation": 1
@@ -8281,14 +8281,14 @@
     {
       "x": 10,
       "y": 12,
-      "z": 5,
+      "z": 2,
       "name": "AdSign_Fat",
       "rotation": 1
     },
     {
       "x": 10,
-      "y": 12,
-      "z": 8,
+      "y": 11,
+      "z": 5,
       "name": "AdSign_Fat",
       "rotation": 1
     }

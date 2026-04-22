@@ -11651,6 +11651,20 @@
       "y": 25,
       "z": 9,
       "name": "Soil_Clay"
+    },
+    {
+      "x": 10,
+      "y": 19,
+      "z": 2,
+      "name": "AdSign_Fat",
+      "rotation": 1
+    },
+    {
+      "x": 10,
+      "y": 20,
+      "z": 5,
+      "name": "AdSign_Fat",
+      "rotation": 1
     }
   ]
 }
