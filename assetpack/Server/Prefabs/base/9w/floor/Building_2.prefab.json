@@ -6,6 +6,20 @@
   "anchorZ": 5,
   "blocks": [
     {
+      "x": 0,
+      "y": 2,
+      "z": 3,
+      "name": "AdSign_Fat",
+      "rotation": 3
+    },
+    {
+      "x": 0,
+      "y": 3,
+      "z": 7,
+      "name": "AdSign_Fat",
+      "rotation": 3
+    },
+    {
       "x": 1,
       "y": 1,
       "z": 1,
@@ -56,18 +70,6 @@
     {
       "x": 1,
       "y": 9,
-      "z": 1,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 1,
-      "y": 10,
-      "z": 1,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 1,
-      "y": 11,
       "z": 1,
       "name": "Soil_Clay"
     },
@@ -122,18 +124,6 @@
     {
       "x": 1,
       "y": 9,
-      "z": 2,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 1,
-      "y": 10,
-      "z": 2,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 1,
-      "y": 11,
       "z": 2,
       "name": "Soil_Clay"
     },
@@ -188,18 +178,6 @@
     {
       "x": 1,
       "y": 9,
-      "z": 3,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 1,
-      "y": 10,
-      "z": 3,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 1,
-      "y": 11,
       "z": 3,
       "name": "Soil_Clay"
     },
@@ -254,18 +232,6 @@
     {
       "x": 1,
       "y": 9,
-      "z": 4,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 1,
-      "y": 10,
-      "z": 4,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 1,
-      "y": 11,
       "z": 4,
       "name": "Soil_Clay"
     },
@@ -325,18 +291,6 @@
     },
     {
       "x": 1,
-      "y": 10,
-      "z": 5,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 1,
-      "y": 11,
-      "z": 5,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 1,
       "y": 1,
       "z": 6,
       "name": "Soil_Clay"
@@ -386,18 +340,6 @@
     {
       "x": 1,
       "y": 9,
-      "z": 6,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 1,
-      "y": 10,
-      "z": 6,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 1,
-      "y": 11,
       "z": 6,
       "name": "Soil_Clay"
     },
@@ -452,18 +394,6 @@
     {
       "x": 1,
       "y": 9,
-      "z": 7,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 1,
-      "y": 10,
-      "z": 7,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 1,
-      "y": 11,
       "z": 7,
       "name": "Soil_Clay"
     },
@@ -518,18 +448,6 @@
     {
       "x": 1,
       "y": 9,
-      "z": 8,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 1,
-      "y": 10,
-      "z": 8,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 1,
-      "y": 11,
       "z": 8,
       "name": "Soil_Clay"
     },
@@ -584,18 +502,6 @@
     {
       "x": 1,
       "y": 9,
-      "z": 9,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 1,
-      "y": 10,
-      "z": 9,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 1,
-      "y": 11,
       "z": 9,
       "name": "Soil_Clay"
     },
@@ -626,42 +532,12 @@
     {
       "x": 2,
       "y": 5,
-      "z": 1,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 2,
-      "y": 6,
-      "z": 1,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 2,
-      "y": 7,
-      "z": 1,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 2,
-      "y": 8,
       "z": 1,
       "name": "Soil_Clay"
     },
     {
       "x": 2,
       "y": 9,
-      "z": 1,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 2,
-      "y": 10,
-      "z": 1,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 2,
-      "y": 11,
       "z": 1,
       "name": "Soil_Clay"
     },
@@ -687,7 +563,8 @@
       "x": 2,
       "y": 4,
       "z": 2,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 2,
@@ -716,18 +593,6 @@
     {
       "x": 2,
       "y": 9,
-      "z": 2,
-      "name": "Empty"
-    },
-    {
-      "x": 2,
-      "y": 10,
-      "z": 2,
-      "name": "Empty"
-    },
-    {
-      "x": 2,
-      "y": 11,
       "z": 2,
       "name": "Soil_Clay"
     },
@@ -753,7 +618,8 @@
       "x": 2,
       "y": 4,
       "z": 3,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 2,
@@ -782,18 +648,6 @@
     {
       "x": 2,
       "y": 9,
-      "z": 3,
-      "name": "Empty"
-    },
-    {
-      "x": 2,
-      "y": 10,
-      "z": 3,
-      "name": "Empty"
-    },
-    {
-      "x": 2,
-      "y": 11,
       "z": 3,
       "name": "Soil_Clay"
     },
@@ -819,7 +673,8 @@
       "x": 2,
       "y": 4,
       "z": 4,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 2,
@@ -848,18 +703,6 @@
     {
       "x": 2,
       "y": 9,
-      "z": 4,
-      "name": "Empty"
-    },
-    {
-      "x": 2,
-      "y": 10,
-      "z": 4,
-      "name": "Empty"
-    },
-    {
-      "x": 2,
-      "y": 11,
       "z": 4,
       "name": "Soil_Clay"
     },
@@ -885,7 +728,8 @@
       "x": 2,
       "y": 4,
       "z": 5,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 2,
@@ -915,18 +759,6 @@
       "x": 2,
       "y": 9,
       "z": 5,
-      "name": "Empty"
-    },
-    {
-      "x": 2,
-      "y": 10,
-      "z": 5,
-      "name": "Empty"
-    },
-    {
-      "x": 2,
-      "y": 11,
-      "z": 5,
       "name": "Soil_Clay"
     },
     {
@@ -951,7 +783,8 @@
       "x": 2,
       "y": 4,
       "z": 6,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 2,
@@ -980,19 +813,7 @@
     {
       "x": 2,
       "y": 9,
-      "z": 6,
-      "name": "Empty"
-    },
-    {
-      "x": 2,
-      "y": 10,
       "z": 6,
-      "name": "Empty"
-    },
-    {
-      "x": 2,
-      "y": 11,
-      "z": 6,
       "name": "Soil_Clay"
     },
     {
@@ -1017,7 +838,8 @@
       "x": 2,
       "y": 4,
       "z": 7,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 2,
@@ -1046,18 +868,6 @@
     {
       "x": 2,
       "y": 9,
-      "z": 7,
-      "name": "Empty"
-    },
-    {
-      "x": 2,
-      "y": 10,
-      "z": 7,
-      "name": "Empty"
-    },
-    {
-      "x": 2,
-      "y": 11,
       "z": 7,
       "name": "Soil_Clay"
     },
@@ -1083,7 +893,8 @@
       "x": 2,
       "y": 4,
       "z": 8,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 2,
@@ -1112,18 +923,6 @@
     {
       "x": 2,
       "y": 9,
-      "z": 8,
-      "name": "Empty"
-    },
-    {
-      "x": 2,
-      "y": 10,
-      "z": 8,
-      "name": "Empty"
-    },
-    {
-      "x": 2,
-      "y": 11,
       "z": 8,
       "name": "Soil_Clay"
     },
@@ -1178,48 +977,42 @@
     {
       "x": 2,
       "y": 9,
-      "z": 9,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 2,
-      "y": 10,
       "z": 9,
       "name": "Soil_Clay"
     },
     {
-      "x": 2,
-      "y": 11,
-      "z": 9,
+      "x": 3,
+      "y": 1,
+      "z": 1,
       "name": "Soil_Clay"
     },
     {
       "x": 3,
-      "y": 1,
+      "y": 2,
       "z": 1,
       "name": "Soil_Clay"
     },
     {
       "x": 3,
-      "y": 2,
+      "y": 3,
       "z": 1,
       "name": "Soil_Clay"
     },
     {
       "x": 3,
-      "y": 6,
+      "y": 4,
       "z": 1,
       "name": "Soil_Clay"
     },
     {
       "x": 3,
-      "y": 10,
+      "y": 5,
       "z": 1,
       "name": "Soil_Clay"
     },
     {
       "x": 3,
-      "y": 11,
+      "y": 9,
       "z": 1,
       "name": "Soil_Clay"
     },
@@ -1245,7 +1038,8 @@
       "x": 3,
       "y": 4,
       "z": 2,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 3,
@@ -1274,18 +1068,6 @@
     {
       "x": 3,
       "y": 9,
-      "z": 2,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 10,
-      "z": 2,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 11,
       "z": 2,
       "name": "Soil_Clay"
     },
@@ -1311,7 +1093,8 @@
       "x": 3,
       "y": 4,
       "z": 3,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 3,
@@ -1340,18 +1123,6 @@
     {
       "x": 3,
       "y": 9,
-      "z": 3,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 10,
-      "z": 3,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 11,
       "z": 3,
       "name": "Soil_Clay"
     },
@@ -1377,7 +1148,8 @@
       "x": 3,
       "y": 4,
       "z": 4,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 3,
@@ -1406,18 +1178,6 @@
     {
       "x": 3,
       "y": 9,
-      "z": 4,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 10,
-      "z": 4,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 11,
       "z": 4,
       "name": "Soil_Clay"
     },
@@ -1443,7 +1203,8 @@
       "x": 3,
       "y": 4,
       "z": 5,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 3,
@@ -1473,22 +1234,10 @@
       "x": 3,
       "y": 9,
       "z": 5,
-      "name": "Empty"
+      "name": "Soil_Clay"
     },
     {
       "x": 3,
-      "y": 10,
-      "z": 5,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 11,
-      "z": 5,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 3,
       "y": 1,
       "z": 6,
       "name": "Empty"
@@ -1509,7 +1258,8 @@
       "x": 3,
       "y": 4,
       "z": 6,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 3,
@@ -1538,18 +1288,6 @@
     {
       "x": 3,
       "y": 9,
-      "z": 6,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 10,
-      "z": 6,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 11,
       "z": 6,
       "name": "Soil_Clay"
     },
@@ -1575,7 +1313,8 @@
       "x": 3,
       "y": 4,
       "z": 7,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 3,
@@ -1604,18 +1343,6 @@
     {
       "x": 3,
       "y": 9,
-      "z": 7,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 10,
-      "z": 7,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 11,
       "z": 7,
       "name": "Soil_Clay"
     },
@@ -1641,7 +1368,8 @@
       "x": 3,
       "y": 4,
       "z": 8,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 3,
@@ -1670,18 +1398,6 @@
     {
       "x": 3,
       "y": 9,
-      "z": 8,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 10,
-      "z": 8,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 11,
       "z": 8,
       "name": "Soil_Clay"
     },
@@ -1736,48 +1452,24 @@
     {
       "x": 3,
       "y": 9,
-      "z": 9,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 3,
-      "y": 10,
-      "z": 9,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 3,
-      "y": 11,
       "z": 9,
       "name": "Soil_Clay"
     },
     {
       "x": 4,
-      "y": 1,
-      "z": 1,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 4,
-      "y": 2,
-      "z": 1,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 4,
-      "y": 6,
+      "y": 4,
       "z": 1,
       "name": "Soil_Clay"
     },
     {
       "x": 4,
-      "y": 10,
+      "y": 5,
       "z": 1,
       "name": "Soil_Clay"
     },
     {
       "x": 4,
-      "y": 11,
+      "y": 9,
       "z": 1,
       "name": "Soil_Clay"
     },
@@ -1803,7 +1495,8 @@
       "x": 4,
       "y": 4,
       "z": 2,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 4,
@@ -1832,18 +1525,6 @@
     {
       "x": 4,
       "y": 9,
-      "z": 2,
-      "name": "Empty"
-    },
-    {
-      "x": 4,
-      "y": 10,
-      "z": 2,
-      "name": "Empty"
-    },
-    {
-      "x": 4,
-      "y": 11,
       "z": 2,
       "name": "Soil_Clay"
     },
@@ -1869,7 +1550,8 @@
       "x": 4,
       "y": 4,
       "z": 3,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 4,
@@ -1898,18 +1580,6 @@
     {
       "x": 4,
       "y": 9,
-      "z": 3,
-      "name": "Empty"
-    },
-    {
-      "x": 4,
-      "y": 10,
-      "z": 3,
-      "name": "Empty"
-    },
-    {
-      "x": 4,
-      "y": 11,
       "z": 3,
       "name": "Soil_Clay"
     },
@@ -1935,7 +1605,8 @@
       "x": 4,
       "y": 4,
       "z": 4,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 4,
@@ -1965,18 +1636,6 @@
       "x": 4,
       "y": 9,
       "z": 4,
-      "name": "Empty"
-    },
-    {
-      "x": 4,
-      "y": 10,
-      "z": 4,
-      "name": "Empty"
-    },
-    {
-      "x": 4,
-      "y": 11,
-      "z": 4,
       "name": "Soil_Clay"
     },
     {
@@ -2001,7 +1660,8 @@
       "x": 4,
       "y": 4,
       "z": 5,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 4,
@@ -2030,18 +1690,6 @@
     {
       "x": 4,
       "y": 9,
-      "z": 5,
-      "name": "Empty"
-    },
-    {
-      "x": 4,
-      "y": 10,
-      "z": 5,
-      "name": "Empty"
-    },
-    {
-      "x": 4,
-      "y": 11,
       "z": 5,
       "name": "Soil_Clay"
     },
@@ -2067,7 +1715,8 @@
       "x": 4,
       "y": 4,
       "z": 6,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 4,
@@ -2096,19 +1745,7 @@
     {
       "x": 4,
       "y": 9,
-      "z": 6,
-      "name": "Empty"
-    },
-    {
-      "x": 4,
-      "y": 10,
       "z": 6,
-      "name": "Empty"
-    },
-    {
-      "x": 4,
-      "y": 11,
-      "z": 6,
       "name": "Soil_Clay"
     },
     {
@@ -2133,7 +1770,8 @@
       "x": 4,
       "y": 4,
       "z": 7,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 4,
@@ -2162,18 +1800,6 @@
     {
       "x": 4,
       "y": 9,
-      "z": 7,
-      "name": "Empty"
-    },
-    {
-      "x": 4,
-      "y": 10,
-      "z": 7,
-      "name": "Empty"
-    },
-    {
-      "x": 4,
-      "y": 11,
       "z": 7,
       "name": "Soil_Clay"
     },
@@ -2199,7 +1825,8 @@
       "x": 4,
       "y": 4,
       "z": 8,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 4,
@@ -2228,18 +1855,6 @@
     {
       "x": 4,
       "y": 9,
-      "z": 8,
-      "name": "Empty"
-    },
-    {
-      "x": 4,
-      "y": 10,
-      "z": 8,
-      "name": "Empty"
-    },
-    {
-      "x": 4,
-      "y": 11,
       "z": 8,
       "name": "Soil_Clay"
     },
@@ -2294,37 +1909,7 @@
     {
       "x": 4,
       "y": 9,
-      "z": 9,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 4,
-      "y": 10,
-      "z": 9,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 4,
-      "y": 11,
       "z": 9,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 5,
-      "y": 1,
-      "z": 1,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 5,
-      "y": 2,
-      "z": 1,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 5,
-      "y": 3,
-      "z": 1,
       "name": "Soil_Clay"
     },
     {
@@ -2360,18 +1945,6 @@
     {
       "x": 5,
       "y": 9,
-      "z": 1,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 5,
-      "y": 10,
-      "z": 1,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 5,
-      "y": 11,
       "z": 1,
       "name": "Soil_Clay"
     },
@@ -2397,7 +1970,8 @@
       "x": 5,
       "y": 4,
       "z": 2,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 5,
@@ -2427,18 +2001,6 @@
       "x": 5,
       "y": 9,
       "z": 2,
-      "name": "Empty"
-    },
-    {
-      "x": 5,
-      "y": 10,
-      "z": 2,
-      "name": "Empty"
-    },
-    {
-      "x": 5,
-      "y": 11,
-      "z": 2,
       "name": "Soil_Clay"
     },
     {
@@ -2463,7 +2025,8 @@
       "x": 5,
       "y": 4,
       "z": 3,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 5,
@@ -2492,18 +2055,6 @@
     {
       "x": 5,
       "y": 9,
-      "z": 3,
-      "name": "Empty"
-    },
-    {
-      "x": 5,
-      "y": 10,
-      "z": 3,
-      "name": "Empty"
-    },
-    {
-      "x": 5,
-      "y": 11,
       "z": 3,
       "name": "Soil_Clay"
     },
@@ -2529,7 +2080,8 @@
       "x": 5,
       "y": 4,
       "z": 4,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 5,
@@ -2558,19 +2110,7 @@
     {
       "x": 5,
       "y": 9,
-      "z": 4,
-      "name": "Empty"
-    },
-    {
-      "x": 5,
-      "y": 10,
       "z": 4,
-      "name": "Empty"
-    },
-    {
-      "x": 5,
-      "y": 11,
-      "z": 4,
       "name": "Soil_Clay"
     },
     {
@@ -2595,7 +2135,8 @@
       "x": 5,
       "y": 4,
       "z": 5,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 5,
@@ -2624,18 +2165,6 @@
     {
       "x": 5,
       "y": 9,
-      "z": 5,
-      "name": "Empty"
-    },
-    {
-      "x": 5,
-      "y": 10,
-      "z": 5,
-      "name": "Empty"
-    },
-    {
-      "x": 5,
-      "y": 11,
       "z": 5,
       "name": "Soil_Clay"
     },
@@ -2661,7 +2190,8 @@
       "x": 5,
       "y": 4,
       "z": 6,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 5,
@@ -2690,18 +2220,6 @@
     {
       "x": 5,
       "y": 9,
-      "z": 6,
-      "name": "Empty"
-    },
-    {
-      "x": 5,
-      "y": 10,
-      "z": 6,
-      "name": "Empty"
-    },
-    {
-      "x": 5,
-      "y": 11,
       "z": 6,
       "name": "Soil_Clay"
     },
@@ -2727,7 +2245,8 @@
       "x": 5,
       "y": 4,
       "z": 7,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 5,
@@ -2756,18 +2275,6 @@
     {
       "x": 5,
       "y": 9,
-      "z": 7,
-      "name": "Empty"
-    },
-    {
-      "x": 5,
-      "y": 10,
-      "z": 7,
-      "name": "Empty"
-    },
-    {
-      "x": 5,
-      "y": 11,
       "z": 7,
       "name": "Soil_Clay"
     },
@@ -2793,7 +2300,8 @@
       "x": 5,
       "y": 4,
       "z": 8,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 5,
@@ -2823,18 +2331,6 @@
       "x": 5,
       "y": 9,
       "z": 8,
-      "name": "Empty"
-    },
-    {
-      "x": 5,
-      "y": 10,
-      "z": 8,
-      "name": "Empty"
-    },
-    {
-      "x": 5,
-      "y": 11,
-      "z": 8,
       "name": "Soil_Clay"
     },
     {
@@ -2888,30 +2384,18 @@
     {
       "x": 5,
       "y": 9,
-      "z": 9,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 5,
-      "y": 10,
-      "z": 9,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 5,
-      "y": 11,
       "z": 9,
       "name": "Soil_Clay"
     },
     {
       "x": 6,
-      "y": 1,
+      "y": 4,
       "z": 1,
       "name": "Soil_Clay"
     },
     {
       "x": 6,
-      "y": 2,
+      "y": 5,
       "z": 1,
       "name": "Soil_Clay"
     },
@@ -2936,18 +2420,6 @@
     {
       "x": 6,
       "y": 9,
-      "z": 1,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 6,
-      "y": 10,
-      "z": 1,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 6,
-      "y": 11,
       "z": 1,
       "name": "Soil_Clay"
     },
@@ -2973,13 +2445,15 @@
       "x": 6,
       "y": 4,
       "z": 2,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 6,
       "y": 5,
       "z": 2,
-      "name": "Empty"
+      "name": "Rock_Crystal_White_Block",
+      "rotation": 4
     },
     {
       "x": 6,
@@ -3002,18 +2476,6 @@
     {
       "x": 6,
       "y": 9,
-      "z": 2,
-      "name": "Empty"
-    },
-    {
-      "x": 6,
-      "y": 10,
-      "z": 2,
-      "name": "Empty"
-    },
-    {
-      "x": 6,
-      "y": 11,
       "z": 2,
       "name": "Soil_Clay"
     },
@@ -3039,7 +2501,8 @@
       "x": 6,
       "y": 4,
       "z": 3,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 6,
@@ -3068,18 +2531,6 @@
     {
       "x": 6,
       "y": 9,
-      "z": 3,
-      "name": "Empty"
-    },
-    {
-      "x": 6,
-      "y": 10,
-      "z": 3,
-      "name": "Empty"
-    },
-    {
-      "x": 6,
-      "y": 11,
       "z": 3,
       "name": "Soil_Clay"
     },
@@ -3105,7 +2556,8 @@
       "x": 6,
       "y": 4,
       "z": 4,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 6,
@@ -3134,18 +2586,6 @@
     {
       "x": 6,
       "y": 9,
-      "z": 4,
-      "name": "Empty"
-    },
-    {
-      "x": 6,
-      "y": 10,
-      "z": 4,
-      "name": "Empty"
-    },
-    {
-      "x": 6,
-      "y": 11,
       "z": 4,
       "name": "Soil_Clay"
     },
@@ -3171,7 +2611,8 @@
       "x": 6,
       "y": 4,
       "z": 5,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 6,
@@ -3200,18 +2641,6 @@
     {
       "x": 6,
       "y": 9,
-      "z": 5,
-      "name": "Empty"
-    },
-    {
-      "x": 6,
-      "y": 10,
-      "z": 5,
-      "name": "Empty"
-    },
-    {
-      "x": 6,
-      "y": 11,
       "z": 5,
       "name": "Soil_Clay"
     },
@@ -3237,7 +2666,8 @@
       "x": 6,
       "y": 4,
       "z": 6,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 6,
@@ -3267,18 +2697,6 @@
       "x": 6,
       "y": 9,
       "z": 6,
-      "name": "Empty"
-    },
-    {
-      "x": 6,
-      "y": 10,
-      "z": 6,
-      "name": "Empty"
-    },
-    {
-      "x": 6,
-      "y": 11,
-      "z": 6,
       "name": "Soil_Clay"
     },
     {
@@ -3303,7 +2721,8 @@
       "x": 6,
       "y": 4,
       "z": 7,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 6,
@@ -3332,18 +2751,6 @@
     {
       "x": 6,
       "y": 9,
-      "z": 7,
-      "name": "Empty"
-    },
-    {
-      "x": 6,
-      "y": 10,
-      "z": 7,
-      "name": "Empty"
-    },
-    {
-      "x": 6,
-      "y": 11,
       "z": 7,
       "name": "Soil_Clay"
     },
@@ -3369,7 +2776,8 @@
       "x": 6,
       "y": 4,
       "z": 8,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 6,
@@ -3398,18 +2806,6 @@
     {
       "x": 6,
       "y": 9,
-      "z": 8,
-      "name": "Empty"
-    },
-    {
-      "x": 6,
-      "y": 10,
-      "z": 8,
-      "name": "Empty"
-    },
-    {
-      "x": 6,
-      "y": 11,
       "z": 8,
       "name": "Soil_Clay"
     },
@@ -3464,48 +2860,24 @@
     {
       "x": 6,
       "y": 9,
-      "z": 9,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 6,
-      "y": 10,
-      "z": 9,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 6,
-      "y": 11,
       "z": 9,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 7,
-      "y": 1,
-      "z": 1,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 7,
-      "y": 2,
-      "z": 1,
       "name": "Soil_Clay"
     },
     {
       "x": 7,
-      "y": 6,
+      "y": 4,
       "z": 1,
       "name": "Soil_Clay"
     },
     {
       "x": 7,
-      "y": 10,
+      "y": 5,
       "z": 1,
       "name": "Soil_Clay"
     },
     {
       "x": 7,
-      "y": 11,
+      "y": 9,
       "z": 1,
       "name": "Soil_Clay"
     },
@@ -3531,7 +2903,8 @@
       "x": 7,
       "y": 4,
       "z": 2,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 7,
@@ -3560,18 +2933,6 @@
     {
       "x": 7,
       "y": 9,
-      "z": 2,
-      "name": "Empty"
-    },
-    {
-      "x": 7,
-      "y": 10,
-      "z": 2,
-      "name": "Empty"
-    },
-    {
-      "x": 7,
-      "y": 11,
       "z": 2,
       "name": "Soil_Clay"
     },
@@ -3597,7 +2958,8 @@
       "x": 7,
       "y": 4,
       "z": 3,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 7,
@@ -3626,18 +2988,6 @@
     {
       "x": 7,
       "y": 9,
-      "z": 3,
-      "name": "Empty"
-    },
-    {
-      "x": 7,
-      "y": 10,
-      "z": 3,
-      "name": "Empty"
-    },
-    {
-      "x": 7,
-      "y": 11,
       "z": 3,
       "name": "Soil_Clay"
     },
@@ -3663,47 +3013,36 @@
       "x": 7,
       "y": 4,
       "z": 4,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 7,
       "y": 5,
-      "z": 4,
-      "name": "Empty"
-    },
-    {
-      "x": 7,
-      "y": 6,
       "z": 4,
       "name": "Empty"
     },
     {
       "x": 7,
-      "y": 7,
-      "z": 4,
-      "name": "Empty"
-    },
-    {
-      "x": 7,
-      "y": 8,
+      "y": 6,
       "z": 4,
       "name": "Empty"
     },
     {
       "x": 7,
-      "y": 9,
+      "y": 7,
       "z": 4,
       "name": "Empty"
     },
     {
       "x": 7,
-      "y": 10,
+      "y": 8,
       "z": 4,
       "name": "Empty"
     },
     {
       "x": 7,
-      "y": 11,
+      "y": 9,
       "z": 4,
       "name": "Soil_Clay"
     },
@@ -3729,7 +3068,8 @@
       "x": 7,
       "y": 4,
       "z": 5,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 7,
@@ -3758,18 +3098,6 @@
     {
       "x": 7,
       "y": 9,
-      "z": 5,
-      "name": "Empty"
-    },
-    {
-      "x": 7,
-      "y": 10,
-      "z": 5,
-      "name": "Empty"
-    },
-    {
-      "x": 7,
-      "y": 11,
       "z": 5,
       "name": "Soil_Clay"
     },
@@ -3795,7 +3123,8 @@
       "x": 7,
       "y": 4,
       "z": 6,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 7,
@@ -3824,18 +3153,6 @@
     {
       "x": 7,
       "y": 9,
-      "z": 6,
-      "name": "Empty"
-    },
-    {
-      "x": 7,
-      "y": 10,
-      "z": 6,
-      "name": "Empty"
-    },
-    {
-      "x": 7,
-      "y": 11,
       "z": 6,
       "name": "Soil_Clay"
     },
@@ -3861,7 +3178,8 @@
       "x": 7,
       "y": 4,
       "z": 7,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 7,
@@ -3890,18 +3208,6 @@
     {
       "x": 7,
       "y": 9,
-      "z": 7,
-      "name": "Empty"
-    },
-    {
-      "x": 7,
-      "y": 10,
-      "z": 7,
-      "name": "Empty"
-    },
-    {
-      "x": 7,
-      "y": 11,
       "z": 7,
       "name": "Soil_Clay"
     },
@@ -3927,7 +3233,8 @@
       "x": 7,
       "y": 4,
       "z": 8,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 7,
@@ -3956,18 +3263,6 @@
     {
       "x": 7,
       "y": 9,
-      "z": 8,
-      "name": "Empty"
-    },
-    {
-      "x": 7,
-      "y": 10,
-      "z": 8,
-      "name": "Empty"
-    },
-    {
-      "x": 7,
-      "y": 11,
       "z": 8,
       "name": "Soil_Clay"
     },
@@ -4022,34 +3317,8 @@
     {
       "x": 7,
       "y": 9,
-      "z": 9,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 7,
-      "y": 10,
-      "z": 9,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 7,
-      "y": 11,
       "z": 9,
       "name": "Soil_Clay"
-    },
-    {
-      "x": 8,
-      "y": 1,
-      "z": 0,
-      "name": "NoCube_Neon_Block_Cyan",
-      "rotation": 1
-    },
-    {
-      "x": 8,
-      "y": 3,
-      "z": 0,
-      "name": "NoCube_Neon_Block_Cyan",
-      "rotation": 1
     },
     {
       "x": 8,
@@ -4078,24 +3347,12 @@
     {
       "x": 8,
       "y": 5,
-      "z": 1,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 8,
-      "y": 6,
-      "z": 1,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 8,
-      "y": 10,
       "z": 1,
       "name": "Soil_Clay"
     },
     {
       "x": 8,
-      "y": 11,
+      "y": 9,
       "z": 1,
       "name": "Soil_Clay"
     },
@@ -4121,7 +3378,8 @@
       "x": 8,
       "y": 4,
       "z": 2,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 8,
@@ -4151,18 +3409,6 @@
       "x": 8,
       "y": 9,
       "z": 2,
-      "name": "Empty"
-    },
-    {
-      "x": 8,
-      "y": 10,
-      "z": 2,
-      "name": "Empty"
-    },
-    {
-      "x": 8,
-      "y": 11,
-      "z": 2,
       "name": "Soil_Clay"
     },
     {
@@ -4175,7 +3421,8 @@
       "x": 8,
       "y": 2,
       "z": 3,
-      "name": "Empty"
+      "name": "Rock_Crystal_White_Block",
+      "rotation": 5
     },
     {
       "x": 8,
@@ -4187,7 +3434,8 @@
       "x": 8,
       "y": 4,
       "z": 3,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 8,
@@ -4216,18 +3464,6 @@
     {
       "x": 8,
       "y": 9,
-      "z": 3,
-      "name": "Empty"
-    },
-    {
-      "x": 8,
-      "y": 10,
-      "z": 3,
-      "name": "Empty"
-    },
-    {
-      "x": 8,
-      "y": 11,
       "z": 3,
       "name": "Soil_Clay"
     },
@@ -4253,7 +3489,8 @@
       "x": 8,
       "y": 4,
       "z": 4,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 8,
@@ -4282,18 +3519,6 @@
     {
       "x": 8,
       "y": 9,
-      "z": 4,
-      "name": "Empty"
-    },
-    {
-      "x": 8,
-      "y": 10,
-      "z": 4,
-      "name": "Empty"
-    },
-    {
-      "x": 8,
-      "y": 11,
       "z": 4,
       "name": "Soil_Clay"
     },
@@ -4319,7 +3544,8 @@
       "x": 8,
       "y": 4,
       "z": 5,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 8,
@@ -4348,18 +3574,6 @@
     {
       "x": 8,
       "y": 9,
-      "z": 5,
-      "name": "Empty"
-    },
-    {
-      "x": 8,
-      "y": 10,
-      "z": 5,
-      "name": "Empty"
-    },
-    {
-      "x": 8,
-      "y": 11,
       "z": 5,
       "name": "Soil_Clay"
     },
@@ -4385,7 +3599,8 @@
       "x": 8,
       "y": 4,
       "z": 6,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 8,
@@ -4414,18 +3629,6 @@
     {
       "x": 8,
       "y": 9,
-      "z": 6,
-      "name": "Empty"
-    },
-    {
-      "x": 8,
-      "y": 10,
-      "z": 6,
-      "name": "Empty"
-    },
-    {
-      "x": 8,
-      "y": 11,
       "z": 6,
       "name": "Soil_Clay"
     },
@@ -4451,7 +3654,8 @@
       "x": 8,
       "y": 4,
       "z": 7,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 8,
@@ -4480,18 +3684,6 @@
     {
       "x": 8,
       "y": 9,
-      "z": 7,
-      "name": "Empty"
-    },
-    {
-      "x": 8,
-      "y": 10,
-      "z": 7,
-      "name": "Empty"
-    },
-    {
-      "x": 8,
-      "y": 11,
       "z": 7,
       "name": "Soil_Clay"
     },
@@ -4517,7 +3709,8 @@
       "x": 8,
       "y": 4,
       "z": 8,
-      "name": "Empty"
+      "name": "Wood_Hardwood_Planks_Half",
+      "rotation": 8
     },
     {
       "x": 8,
@@ -4546,19 +3739,7 @@
     {
       "x": 8,
       "y": 9,
-      "z": 8,
-      "name": "Empty"
-    },
-    {
-      "x": 8,
-      "y": 10,
       "z": 8,
-      "name": "Empty"
-    },
-    {
-      "x": 8,
-      "y": 11,
-      "z": 8,
       "name": "Soil_Clay"
     },
     {
@@ -4612,18 +3793,6 @@
     {
       "x": 8,
       "y": 9,
-      "z": 9,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 8,
-      "y": 10,
-      "z": 9,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 8,
-      "y": 11,
       "z": 9,
       "name": "Soil_Clay"
     },
@@ -4678,18 +3847,6 @@
     {
       "x": 9,
       "y": 9,
-      "z": 1,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 9,
-      "y": 10,
-      "z": 1,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 9,
-      "y": 11,
       "z": 1,
       "name": "Soil_Clay"
     },
@@ -4744,18 +3901,6 @@
     {
       "x": 9,
       "y": 9,
-      "z": 2,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 9,
-      "y": 10,
-      "z": 2,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 9,
-      "y": 11,
       "z": 2,
       "name": "Soil_Clay"
     },
@@ -4810,23 +3955,11 @@
     {
       "x": 9,
       "y": 9,
-      "z": 3,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 9,
-      "y": 10,
       "z": 3,
       "name": "Soil_Clay"
     },
     {
       "x": 9,
-      "y": 11,
-      "z": 3,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 9,
       "y": 1,
       "z": 4,
       "name": "Soil_Clay"
@@ -4876,18 +4009,6 @@
     {
       "x": 9,
       "y": 9,
-      "z": 4,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 9,
-      "y": 10,
-      "z": 4,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 9,
-      "y": 11,
       "z": 4,
       "name": "Soil_Clay"
     },
@@ -4942,18 +4063,6 @@
     {
       "x": 9,
       "y": 9,
-      "z": 5,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 9,
-      "y": 10,
-      "z": 5,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 9,
-      "y": 11,
       "z": 5,
       "name": "Soil_Clay"
     },
@@ -5008,18 +4117,6 @@
     {
       "x": 9,
       "y": 9,
-      "z": 6,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 9,
-      "y": 10,
-      "z": 6,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 9,
-      "y": 11,
       "z": 6,
       "name": "Soil_Clay"
     },
@@ -5074,23 +4171,11 @@
     {
       "x": 9,
       "y": 9,
-      "z": 7,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 9,
-      "y": 10,
       "z": 7,
       "name": "Soil_Clay"
     },
     {
       "x": 9,
-      "y": 11,
-      "z": 7,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 9,
       "y": 1,
       "z": 8,
       "name": "Soil_Clay"
@@ -5140,18 +4225,6 @@
     {
       "x": 9,
       "y": 9,
-      "z": 8,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 9,
-      "y": 10,
-      "z": 8,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 9,
-      "y": 11,
       "z": 8,
       "name": "Soil_Clay"
     },
@@ -5206,18 +4279,6 @@
     {
       "x": 9,
       "y": 9,
-      "z": 9,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 9,
-      "y": 10,
-      "z": 9,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 9,
-      "y": 11,
       "z": 9,
       "name": "Soil_Clay"
     }

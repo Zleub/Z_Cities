@@ -2,7 +2,7 @@
   "TranslationProperties": {
     "Name": "server.items.sign_test.name"
   },
-  "Icon": "Icons/Items/sign_test.png",
+  "Icon": "Icons/ItemsGenerated/AdSign_Small_Tall.png",
   "Categories": [
     "Blocks.Rocks",
     "Blocks.Rocks"
@@ -22,27 +22,20 @@
         "GatherType": "Rocks"
       }
     },
-    "CustomModel": "Blocks/sign_test.blockymodel",
+    "CustomModel": "Blocks/sign_test_medium.blockymodel",
     "BlockParticleSetId": "Crystal",
     "CustomModelTexture": [
       {
-        "Texture": "BlockTextures/texture.png",
-        "Weight": 1
-      },
-      {
-        "Texture": "BlockTextures/texture copy.png",
-        "Weight": 1
-      },
-      {
-        "Texture": "BlockTextures/texture copy 2.png",
+        "Texture": "BlockTextures/ad_sign_medium.png",
         "Weight": 1
       }
     ],
     "ParticleColor": "#245bc1",
     "BlockSoundSetId": "Crystal",
     "CubeShadingMode": "Standard",
-    "VariantRotation": "Wall",
-    "RequiresAlphaBlending": false
+    "VariantRotation": "NESW",
+    "RequiresAlphaBlending": false,
+    "FlipType": "Symmetric"
   },
   "Tags": {
     "Type": [
@@ -53,15 +46,15 @@
     ]
   },
   "IconProperties": {
-    "Scale": 0.5,
+    "Scale": 0.2,
     "Rotation": [
       22.5,
-      0,
+      45,
       22.5
     ],
     "Translation": [
-      0,
-      -13.5
+      13,
+      -61
     ]
   },
   "ItemSoundSetId": "ISS_Blocks_Stone",

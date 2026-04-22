@@ -3,7 +3,7 @@
   "blockIdVersion": 11,
   "anchorX": 5,
   "anchorY": 1,
-  "anchorZ": 5,
+  "anchorZ": 0,
   "blocks": [
     {
       "x": 1,
@@ -3460,8 +3460,7 @@
       "x": 8,
       "y": 1,
       "z": 2,
-      "name": "Rock_Crystal_White_Block",
-      "rotation": 5
+      "name": "Rock_Crystal_White_Block"
     },
     {
       "x": 8,

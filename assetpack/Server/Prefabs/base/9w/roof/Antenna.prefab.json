@@ -1,0 +1,181 @@
+{
+  "version": 8,
+  "blockIdVersion": 11,
+  "anchorX": 5,
+  "anchorY": 1,
+  "anchorZ": 5,
+  "blocks": [
+    {
+      "x": 3,
+      "y": 1,
+      "z": 3,
+      "name": "Metal_Iron_Pipe_Large",
+      "support": 15
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "z": 3,
+      "name": "Metal_Iron_Pipe_Large",
+      "support": 15
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "z": 3,
+      "name": "Metal_Iron_Pipe_Large",
+      "support": 15
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "z": 3,
+      "name": "Metal_Iron_Pipe_Large",
+      "support": 15
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "z": 3,
+      "name": "Metal_Iron_Pipe_Long",
+      "support": 15
+    },
+    {
+      "x": 3,
+      "y": 6,
+      "z": 3,
+      "name": "Metal_Iron_Pipe_Long",
+      "support": 15
+    },
+    {
+      "x": 3,
+      "y": 7,
+      "z": 3,
+      "name": "Metal_Iron_Pipe_Long",
+      "support": 15
+    },
+    {
+      "x": 3,
+      "y": 8,
+      "z": 3,
+      "name": "Metal_Iron_Pipe_Long",
+      "support": 15
+    },
+    {
+      "x": 3,
+      "y": 9,
+      "z": 3,
+      "name": "Metal_Iron_Pipe_Long",
+      "support": 15
+    },
+    {
+      "x": 3,
+      "y": 10,
+      "z": 3,
+      "name": "Metal_Iron_Pipe_Long",
+      "support": 15
+    },
+    {
+      "x": 3,
+      "y": 11,
+      "z": 3,
+      "name": "Build_Lightsource_Blue"
+    },
+    {
+      "x": 7,
+      "y": 1,
+      "z": 2,
+      "name": "Metal_Iron_Ornate"
+    },
+    {
+      "x": 7,
+      "y": 2,
+      "z": 2,
+      "name": "Metal_Iron_Ornate"
+    },
+    {
+      "x": 7,
+      "y": 1,
+      "z": 3,
+      "name": "Metal_Iron_Ornate"
+    },
+    {
+      "x": 7,
+      "y": 2,
+      "z": 3,
+      "name": "Metal_Iron_Ornate"
+    },
+    {
+      "x": 7,
+      "y": 1,
+      "z": 6,
+      "name": "Metal_Iron_Ornate"
+    },
+    {
+      "x": 7,
+      "y": 2,
+      "z": 6,
+      "name": "Metal_Iron_Ornate"
+    },
+    {
+      "x": 7,
+      "y": 1,
+      "z": 7,
+      "name": "Metal_Iron_Ornate"
+    },
+    {
+      "x": 7,
+      "y": 2,
+      "z": 7,
+      "name": "Metal_Iron_Ornate"
+    },
+    {
+      "x": 8,
+      "y": 1,
+      "z": 2,
+      "name": "Metal_Iron_Ornate"
+    },
+    {
+      "x": 8,
+      "y": 2,
+      "z": 2,
+      "name": "Metal_Iron_Ornate"
+    },
+    {
+      "x": 8,
+      "y": 1,
+      "z": 3,
+      "name": "Metal_Iron_Ornate"
+    },
+    {
+      "x": 8,
+      "y": 2,
+      "z": 3,
+      "name": "Metal_Iron_Ornate"
+    },
+    {
+      "x": 8,
+      "y": 1,
+      "z": 6,
+      "name": "Metal_Iron_Ornate"
+    },
+    {
+      "x": 8,
+      "y": 2,
+      "z": 6,
+      "name": "Metal_Iron_Ornate"
+    },
+    {
+      "x": 8,
+      "y": 1,
+      "z": 7,
+      "name": "Metal_Iron_Ornate"
+    },
+    {
+      "x": 8,
+      "y": 2,
+      "z": 7,
+      "name": "Metal_Iron_Ornate"
+    }
+  ]
+}

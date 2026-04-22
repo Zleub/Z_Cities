@@ -1,0 +1,847 @@
+{
+  "version": 8,
+  "blockIdVersion": 11,
+  "anchorX": 5,
+  "anchorY": 1,
+  "anchorZ": 5,
+  "blocks": [
+    {
+      "x": 0,
+      "y": 1,
+      "z": 0,
+      "name": "*Metal_Iron_Roof_State_Definitions_Corner_Left",
+      "rotation": 2
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": 1,
+      "name": "Metal_Iron_Roof",
+      "rotation": 3
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": 2,
+      "name": "Metal_Iron_Roof",
+      "rotation": 3
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": 3,
+      "name": "Metal_Iron_Roof",
+      "rotation": 3
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": 4,
+      "name": "Metal_Iron_Roof",
+      "rotation": 3
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": 5,
+      "name": "Metal_Iron_Roof",
+      "rotation": 3
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": 6,
+      "name": "Metal_Iron_Roof",
+      "rotation": 3
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": 7,
+      "name": "Metal_Iron_Roof",
+      "rotation": 3
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": 8,
+      "name": "Metal_Iron_Roof",
+      "rotation": 3
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": 9,
+      "name": "Metal_Iron_Roof",
+      "rotation": 3
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": 10,
+      "name": "*Metal_Iron_Roof_State_Definitions_Corner_Left",
+      "rotation": 3
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": 0,
+      "name": "Metal_Iron_Roof",
+      "rotation": 2
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "z": 1,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "z": 2,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "z": 3,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "z": 4,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "z": 5,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "z": 6,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "z": 7,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "z": 8,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "z": 9,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 3
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": 10,
+      "name": "Metal_Iron_Roof"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "z": 0,
+      "name": "Metal_Iron_Roof",
+      "rotation": 2
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "z": 1,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "z": 2,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "z": 3,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "z": 4,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "z": 5,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "z": 6,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "z": 7,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "z": 8,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "z": 9,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 3
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "z": 10,
+      "name": "Metal_Iron_Roof"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "z": 0,
+      "name": "Metal_Iron_Roof",
+      "rotation": 2
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "z": 1,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "z": 2,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "z": 3,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "z": 4,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "z": 5,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "z": 6,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "z": 7,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "z": 8,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "z": 9,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 3
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "z": 10,
+      "name": "Metal_Iron_Roof"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "z": 0,
+      "name": "Metal_Iron_Roof",
+      "rotation": 2
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "z": 1,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "z": 2,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "z": 3,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "z": 4,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "z": 5,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "z": 6,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "z": 7,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "z": 8,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "z": 9,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 3
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "z": 10,
+      "name": "Metal_Iron_Roof"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "z": 0,
+      "name": "Metal_Iron_Roof",
+      "rotation": 2
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "z": 1,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "z": 2,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "z": 3,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "z": 4,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "z": 5,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "z": 6,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "z": 7,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "z": 8,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "z": 9,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 3
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "z": 10,
+      "name": "Metal_Iron_Roof"
+    },
+    {
+      "x": 6,
+      "y": 1,
+      "z": 0,
+      "name": "Metal_Iron_Roof",
+      "rotation": 2
+    },
+    {
+      "x": 6,
+      "y": 2,
+      "z": 1,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 6,
+      "y": 2,
+      "z": 2,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 6,
+      "y": 2,
+      "z": 3,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 6,
+      "y": 2,
+      "z": 4,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 6,
+      "y": 2,
+      "z": 5,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 6,
+      "y": 2,
+      "z": 6,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 6,
+      "y": 2,
+      "z": 7,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 6,
+      "y": 2,
+      "z": 8,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 6,
+      "y": 2,
+      "z": 9,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 3
+    },
+    {
+      "x": 6,
+      "y": 1,
+      "z": 10,
+      "name": "Metal_Iron_Roof"
+    },
+    {
+      "x": 7,
+      "y": 1,
+      "z": 0,
+      "name": "Metal_Iron_Roof",
+      "rotation": 2
+    },
+    {
+      "x": 7,
+      "y": 2,
+      "z": 1,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 7,
+      "y": 2,
+      "z": 2,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 7,
+      "y": 2,
+      "z": 3,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 7,
+      "y": 2,
+      "z": 4,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 7,
+      "y": 2,
+      "z": 5,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 7,
+      "y": 2,
+      "z": 6,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 7,
+      "y": 2,
+      "z": 7,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 7,
+      "y": 2,
+      "z": 8,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 7,
+      "y": 2,
+      "z": 9,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 3
+    },
+    {
+      "x": 7,
+      "y": 1,
+      "z": 10,
+      "name": "Metal_Iron_Roof"
+    },
+    {
+      "x": 8,
+      "y": 1,
+      "z": 0,
+      "name": "Metal_Iron_Roof",
+      "rotation": 2
+    },
+    {
+      "x": 8,
+      "y": 2,
+      "z": 1,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 8,
+      "y": 2,
+      "z": 2,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 8,
+      "y": 2,
+      "z": 3,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 8,
+      "y": 2,
+      "z": 4,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 8,
+      "y": 2,
+      "z": 5,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 8,
+      "y": 2,
+      "z": 6,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 8,
+      "y": 2,
+      "z": 7,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 8,
+      "y": 2,
+      "z": 8,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 8,
+      "y": 2,
+      "z": 9,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 3
+    },
+    {
+      "x": 8,
+      "y": 1,
+      "z": 10,
+      "name": "Metal_Iron_Roof"
+    },
+    {
+      "x": 9,
+      "y": 1,
+      "z": 0,
+      "name": "Metal_Iron_Roof",
+      "rotation": 2
+    },
+    {
+      "x": 9,
+      "y": 2,
+      "z": 1,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 9,
+      "y": 2,
+      "z": 2,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 9,
+      "y": 2,
+      "z": 3,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 9,
+      "y": 2,
+      "z": 4,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 9,
+      "y": 2,
+      "z": 5,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 9,
+      "y": 2,
+      "z": 6,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 9,
+      "y": 2,
+      "z": 7,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 9,
+      "y": 2,
+      "z": 8,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 2
+    },
+    {
+      "x": 9,
+      "y": 2,
+      "z": 9,
+      "name": "Metal_Iron_Roof_Flat",
+      "rotation": 3
+    },
+    {
+      "x": 9,
+      "y": 1,
+      "z": 10,
+      "name": "Metal_Iron_Roof"
+    },
+    {
+      "x": 10,
+      "y": 1,
+      "z": 0,
+      "name": "*Metal_Iron_Roof_State_Definitions_Corner_Left",
+      "rotation": 1
+    },
+    {
+      "x": 10,
+      "y": 1,
+      "z": 1,
+      "name": "Metal_Iron_Roof",
+      "rotation": 1
+    },
+    {
+      "x": 10,
+      "y": 1,
+      "z": 2,
+      "name": "Metal_Iron_Roof",
+      "rotation": 1
+    },
+    {
+      "x": 10,
+      "y": 1,
+      "z": 3,
+      "name": "Metal_Iron_Roof",
+      "rotation": 1
+    },
+    {
+      "x": 10,
+      "y": 1,
+      "z": 4,
+      "name": "Metal_Iron_Roof",
+      "rotation": 1
+    },
+    {
+      "x": 10,
+      "y": 1,
+      "z": 5,
+      "name": "Metal_Iron_Roof",
+      "rotation": 1
+    },
+    {
+      "x": 10,
+      "y": 1,
+      "z": 6,
+      "name": "Metal_Iron_Roof",
+      "rotation": 1
+    },
+    {
+      "x": 10,
+      "y": 1,
+      "z": 7,
+      "name": "Metal_Iron_Roof",
+      "rotation": 1
+    },
+    {
+      "x": 10,
+      "y": 1,
+      "z": 8,
+      "name": "Metal_Iron_Roof",
+      "rotation": 1
+    },
+    {
+      "x": 10,
+      "y": 1,
+      "z": 9,
+      "name": "Metal_Iron_Roof",
+      "rotation": 1
+    },
+    {
+      "x": 10,
+      "y": 1,
+      "z": 10,
+      "name": "*Metal_Iron_Roof_State_Definitions_Corner_Right",
+      "rotation": 1
+    }
+  ]
+}
