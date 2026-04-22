@@ -6,14 +6,14 @@ on:
       task:
         description: "Gradle task to run"
         required: true
-        default: "build"
+        default: "prodMode"
       release_tag:
         description: "Release tag, for example v1.2.3"
         required: true
       artifact_path:
         description: "Path to the built file to publish"
         required: true
-        default: "build/libs/app.jar"
+        default: "build/libs/z_cities-<version>.jar"
 
 permissions:
   contents: write
