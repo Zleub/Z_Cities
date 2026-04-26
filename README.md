@@ -37,3 +37,4 @@ chatgpt dev team (code analysis, ci/cd workflow, image generation)<br>
 ItsVerday for its Renode plugin (even if i dont have time to properly dig it, that was very instructive)<br>
 NoCube for its base file for light emissive blocks<br>
 Darkknight4303 for brainstorming and feedback
+pdimagearchive.org for public domain images
