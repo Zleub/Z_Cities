@@ -1,0 +1,79 @@
+{
+  "version": 8,
+  "blockIdVersion": 11,
+  "anchorX": 0,
+  "anchorY": 0,
+  "anchorZ": 0,
+  "blocks": [
+    {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "name": "Metal_Iron_Ornate"
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": 0,
+      "name": "Metal_Iron_Ornate"
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": 0,
+      "name": "Metal_Iron_Pipe_Long",
+      "support": 15
+    },
+    {
+      "x": 0,
+      "y": 3,
+      "z": 0,
+      "name": "Metal_Iron_Pipe_Long",
+      "support": 15
+    },
+    {
+      "x": 0,
+      "y": 4,
+      "z": 0,
+      "name": "Metal_Iron_Pipe_Long",
+      "support": 15
+    },
+    {
+      "x": 0,
+      "y": 5,
+      "z": 0,
+      "name": "Metal_Iron_Pipe_Long",
+      "support": 15
+    },
+    {
+      "x": 0,
+      "y": 6,
+      "z": 0,
+      "name": "Metal_Iron_Pipe_Corner",
+      "support": 15,
+      "rotation": 9
+    },
+    {
+      "x": 1,
+      "y": 6,
+      "z": 0,
+      "name": "Metal_Iron_Pipe_Long",
+      "support": 15,
+      "rotation": 5
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "z": 0,
+      "name": "Rock_Crystal_White_Block"
+    },
+    {
+      "x": 2,
+      "y": 6,
+      "z": 0,
+      "name": "Metal_Iron_Pipe_Corner",
+      "support": 15,
+      "rotation": 11
+    }
+  ]
+}
