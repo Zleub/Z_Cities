@@ -2,7 +2,7 @@
   "TranslationProperties": {
     "Name": "server.items.sign_test.name"
   },
-  "Icon": "Icons/Items/sign_test.png",
+  "Icon": "Icons/ItemsGenerated/AdSign.png",
   "Categories": [
     "Blocks.Rocks",
     "Blocks.Rocks"
@@ -22,19 +22,11 @@
         "GatherType": "Rocks"
       }
     },
-    "CustomModel": "Blocks/sign_test.blockymodel",
+    "CustomModel": "Blocks/AdSign.blockymodel",
     "BlockParticleSetId": "Crystal",
     "CustomModelTexture": [
       {
-        "Texture": "BlockTextures/texture.png",
-        "Weight": 1
-      },
-      {
-        "Texture": "BlockTextures/texture copy.png",
-        "Weight": 1
-      },
-      {
-        "Texture": "BlockTextures/texture copy 2.png",
+        "Texture": "BlockTextures/pda/AdSign/Smithsonian_Libraries_and_Archives-Augustus_Jansson-1903-Serves_you_right.png",
         "Weight": 1
       }
     ],

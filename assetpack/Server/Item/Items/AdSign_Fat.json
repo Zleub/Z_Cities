@@ -22,55 +22,23 @@
         "GatherType": "Rocks"
       }
     },
-    "CustomModel": "Blocks/sign_test_fat.blockymodel",
+    "CustomModel": "Blocks/AdSign_Fat.blockymodel",
     "BlockParticleSetId": "Crystal",
     "CustomModelTexture": [
       {
-        "Texture": "BlockTextures/ad_sign_fat_1.png",
+        "Texture": "BlockTextures/pda/AdSign_Fat/Internet_Archive_The_Getty-Albert_Robida-1890-La_vie_electrique-The_Sophisticated_Poisonous_Chemistry.png",
         "Weight": 1
       },
       {
-        "Texture": "BlockTextures/ad_sign_fat_2.png",
+        "Texture": "BlockTextures/pda/AdSign_Fat/Library_of_Congress-Kenneth_Whitely-1939-Once_Upon_a_Time.png",
         "Weight": 1
       },
       {
-        "Texture": "BlockTextures/ad_sign_fat_3.png",
+        "Texture": "BlockTextures/pda/AdSign_Fat/Library_of_Congress-Strobridge_and_Co-1897-Kellar_In_His_Latest_Mystery_Self_Decapitation.png",
         "Weight": 1
       },
       {
-        "Texture": "BlockTextures/ad_sign_fat_4.png",
-        "Weight": 1
-      },
-      {
-        "Texture": "BlockTextures/ad_sign_fat_5.png",
-        "Weight": 1
-      },
-      {
-        "Texture": "BlockTextures/ad_sign_fat_6.png",
-        "Weight": 1
-      },
-      {
-        "Texture": "BlockTextures/ad_sign_fat_7.png",
-        "Weight": 1
-      },
-      {
-        "Texture": "BlockTextures/ad_sign_fat_8.png",
-        "Weight": 1
-      },
-      {
-        "Texture": "BlockTextures/ad_sign_fat_9.png",
-        "Weight": 1
-      },
-      {
-        "Texture": "BlockTextures/ad_sign_fat_10.png",
-        "Weight": 1
-      },
-      {
-        "Texture": "BlockTextures/ad_sign_fat_11.png",
-        "Weight": 1
-      },
-      {
-        "Texture": "BlockTextures/ad_sign_fat_12.png",
+        "Texture": "BlockTextures/pda/AdSign_Fat/Library_of_Congress-Strobridge_and_Co-1898-Kellar.png",
         "Weight": 1
       }
     ],

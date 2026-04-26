@@ -3,7 +3,7 @@
     "Name": "server.items.Soil_Clay_Brick_Beam.name"
   },
   "ItemLevel": 15,
-  "Icon": "Icons/ItemsGenerated/Rock_Salt_Beam.png",
+  "Icon": "Icons/ItemsGenerated/Rock_Salt_Brick_Beam.png",
   "Categories": [
     "Blocks.Soils"
   ],

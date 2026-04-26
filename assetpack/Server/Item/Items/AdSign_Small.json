@@ -22,11 +22,11 @@
         "GatherType": "Rocks"
       }
     },
-    "CustomModel": "Blocks/sign_test_small.blockymodel",
+    "CustomModel": "Blocks/AdSign_Small.blockymodel",
     "BlockParticleSetId": "Crystal",
     "CustomModelTexture": [
       {
-        "Texture": "BlockTextures/ad_sign_small.png",
+        "Texture": "BlockTextures/Smithsonian_Libraries_and_Archives-Augustus_Jansson-1903–1907-Unnamed_2.png",
         "Weight": 1
       }
     ],

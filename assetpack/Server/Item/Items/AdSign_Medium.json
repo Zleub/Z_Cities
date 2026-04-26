@@ -2,7 +2,7 @@
   "TranslationProperties": {
     "Name": "server.items.sign_test.name"
   },
-  "Icon": "Icons/ItemsGenerated/AdSign_Small_Tall.png",
+  "Icon": "Icons/ItemsGenerated/AdSign_Medium.png",
   "Categories": [
     "Blocks.Rocks",
     "Blocks.Rocks"
@@ -18,15 +18,15 @@
     "Flags": {},
     "Gathering": {
       "Breaking": {
-        "ItemId": "AdSign",
+        "ItemId": "AdSign_Medium",
         "GatherType": "Rocks"
       }
     },
-    "CustomModel": "Blocks/sign_test_medium.blockymodel",
+    "CustomModel": "Blocks/AdSign_Medium.blockymodel",
     "BlockParticleSetId": "Crystal",
     "CustomModelTexture": [
       {
-        "Texture": "BlockTextures/ad_sign_medium.png",
+        "Texture": "BlockTextures/pda/AdSign_Medium/Wellcome_Collection-1916-Advert_for_Halls_Coca_Wine_The_Elixir_of_Life.png",
         "Weight": 1
       }
     ],
