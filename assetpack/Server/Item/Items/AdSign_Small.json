@@ -26,7 +26,7 @@
     "BlockParticleSetId": "Crystal",
     "CustomModelTexture": [
       {
-        "Texture": "BlockTextures/Smithsonian_Libraries_and_Archives-Augustus_Jansson-1903–1907-Unnamed_2.png",
+        "Texture": "BlockTextures/pda/AdSign_Small/Smithsonian_Libraries_and_Archives-Augustus_Jansson-1903–1907-Unnamed_2.png",
         "Weight": 1
       }
     ],
