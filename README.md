@@ -38,3 +38,9 @@ ItsVerday for its Renode plugin (even if i dont have time to properly dig it, th
 NoCube for its base file for light emissive blocks<br>
 Darkknight4303 for brainstorming and feedback<br>
 pdimagearchive.org for public domain images
+
+## Public Domain Credits
+Augustus Jansson<br>
+Albert Robida<br>
+Kenneth Whitely<br>
+Strobridge and Co
